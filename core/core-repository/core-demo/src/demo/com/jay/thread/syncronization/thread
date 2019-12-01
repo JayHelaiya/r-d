@@ -1,0 +1,90 @@
+Sycronized is modifiyer ,applicable for only for method and blocks but not for classes and variables 
+if multiple threads tying to operate simultenouslly on same java object then thair may be chance of data inccunsitancy prop=blem we shoud go sysncronized keyword
+
+if method or block declared as syncronized then at a time only one thread allowed to execure that method or block on the given object so data inccunsitancy propblem
+
+
+addvantage :
+	
+	we can resolve data inconsitancy problem
+	
+dissadvantage :
+
+	it is increase waiting times of threads and creates performance problem hence there is no specifyed requiredment ,then it is not recommended to use 
+	
+	
+ - internally syncronization concept is implemented by using lock , every object in java has unique lock 
+ - whenever we are using syncronize keyword then only lock concept com into the picture 
+ - if a thread want to execute syncronize method on the given object first it has to get lock of that object 
+ 	once got the lock then it is allow to execute any syncronize method on that object ,
+ 	 once method execution completes automatically thread release the lock
+ - aquring and releasing lock take by jvm , programer not responsible for activaty 
+ 
+ 
+ 
+ 
+ case 1
+ -------
+ 
+ while thread executing syncronizing method on the given object then remaining thread not allowed to execute any syncronize method simualtenouly 
+ on the same object but remainig thread allowed to execute not syncronized method simuntenoussly 
+ 
+ 
+ class x {
+ 
+ 		syncronized m1();
+ 		syncronized m2();
+ 		m3();
+ }	 
+ 		 
+ 		 
+ 		m1() t1--->(x)
+ 		m1() t4--->(x) [already lock by t1 ] goes to waiting state 
+ 		m2() t2--->(x) [already lock by t1 ] goes to waiting state 
+ 		m3() t3 -->(x) non sycronize so can access
+ 		
+ lock concept implemented based on object not based on method 
+ 
+ 	m3() t3 -->(x) non sycronize so can access
+ 	--------------------------------------------
+ 	
+ 	every object has two area 
+ 	
+ 			|
+ 			|
+ 			|
+ 			|
+ 
+ 
+ class x {
+ 
+ 	sncronized{
+ 	
+ 		 this area can access by at time one thread symuntenouslly 
+ 			
+ 			where aver performing update operation 
+ 			update , remove , create that type operation perform by at time by only one thread that why should be in sncronized area
+ 			
+ 	}
+ 	
+ 	non-syncronized {
+ 	
+ 		this can access by any number of thread symuntenouslly 
+ 		
+ 		wherever status of obect was not chance like read operation 
+ 	}
+ 	
+ 	
+ 	
+ 	how many tickit available ---- non sync   [multiple thread ca view ]
+ 	reserve ------sync   [at only one thread should get]
+  }
+ 
+ 	
+ 	
+ 	
+// case -2
+
+ if vary few lines of the code required syncronization then it is not recomend entire method as syncronized we have to inclose those few lines of code by using syncronized block
+
+addvantage : it reduse waiting time of thread and improves  perform of the system   		

@@ -1,0 +1,65 @@
+- what is internal Structure of ArrayList?
+		
+		Collection <interface>  
+			|		
+			|
+	AbstractCollection <AbstractClass>
+			|	
+			|
+	AbstractList <AbstractClass>
+			|
+			|
+		List<Interface>
+			|
+			|
+		ArrayList	<Class>
+				
+
+
+1)	what is Arraylist ?
+	
+	- underline DS is dynamic growing array 
+	- duplicate allowed 
+	- insertion order same
+	- heterogeneous object allowed [treeMap & treeSet]
+	- null allowed 
+	
+	
+2)	how internally work ?
+	
+	- ArrayList list=new ArrayList();  // default 
+	
+		- create empty array with 10 default capacity 
+		- try to insert 11th object , once arrayList reach its max capacity ,bigger arraylist going to create  and copy all data to new array 
+			and reasign this new object and old object eligible to garbage collect
+			
+		- new capacity= (cc*3/2)+1    			[16= (10*3/2)+1]
+			 					 		
+3) constructor available ?
+
+	ArrayList list=new ArrayList();
+	ArrayList list=new ArrayList(int initialCapacity);
+	ArrayList list=new ArrayList(Collection c);
+	
+4) important Interfaces implemented in ArrayList 
+	
+	- Seriasizeble
+	
+		- collection is same as container to hold data and transfer data one place to another place over the remote , every collaction should be seriasizable 
+		to provide support to this requirement already implement Seriasizeble interface
+				
+	- clonable 
+	
+		- sender send data and reciever got data across the network after reciever want to not perform on this original data and create same copy of it for safty perpose
+			
+	- randomAccess 
+		
+		- any random element we can able to access same speed.	[Arraylist,Vector]	
+		
+5) when to use ?
+
+		- when our frequent operation retrival then go for ArrayList because it is implements RendomAccess
+			
+6) when not to use ?
+
+		- if our frequent operation is insertion and removing in middle then arrayList is worst choice due to sifting 

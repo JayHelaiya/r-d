@@ -1,0 +1,38 @@
+- what is internal Structure of ArrayList?
+		
+		Collection <interface>  
+			|		
+			|
+	AbstractCollection <AbstractClass>
+			|	
+			|
+	AbstractList <AbstractClass>
+			|
+			|
+		List<Interface>
+			|
+			|
+		LinkedList<Class>
+				
+
+1) what is linkedList ?
+
+- underlined data structure Doubly linked list 
+- insert order preserved 
+- duplicate allowed 
+- heterogeneous object allowed 
+- null insertion is possible   
+
+2) where to use ?
+
+	if our frequent operation insertion and deletion in a middle 
+	
+3) where not to use ?	
+
+	linkList is worst choice if our frequent operation is retrieval operation 
+
+4) which interface implemented in linkedList ?
+	
+	Serializable and clonable not RendomAccess 
+
+5) 

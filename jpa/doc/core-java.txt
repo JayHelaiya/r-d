@@ -1,0 +1,4 @@
+-  deep copy vs shallow copy
+	https://www.geeksforgeeks.org/deep-shallow-lazy-copy-java-examples/
+- static block vs instance initializar block 
+	https://www.geeksforgeeks.org/order-execution-initialization-blocks-constructors-java/	

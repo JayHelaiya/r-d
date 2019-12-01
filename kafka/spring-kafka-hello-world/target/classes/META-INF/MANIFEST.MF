@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: spring-kafka-hello-world
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: jayesh.helaiya
+Implementation-Vendor-Id: com.codenotfound
+Build-Jdk: 1.8.0_161
+Implementation-URL: https://codenotfound.com/spring-kafka-consumer-pro
+ ducer-example.html
+Created-By: Maven Integration for Eclipse
+

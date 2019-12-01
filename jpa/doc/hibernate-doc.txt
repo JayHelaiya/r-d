@@ -1,0 +1,69 @@
+0) https://www.journaldev.com/3633/hibernate-interview-questions-and-answers
+   https://mindmajix.com/hibernate-interview-questions
+   http://www.techfaq360.com/hibernate_interview_questions.jsp?qid=7
+   
+1) What's the difference between JPA and Hibernate? 
+	- https://stackoverflow.com/questions/9881611/whats-the-difference-between-jpa-and-hibernate
+
+
+1) Difference between openSession and getCurrentSession in Hibernate
+	
+	- https://java2blog.com/difference-opensession-getcurrentsession-hibernate/
+	- http://candidjava.com/hibernate-interview-question5/
+	- https://java2blog.com/difference-opensession-getcurrentsession-hibernate/
+
+2) caching in hibernate 
+					
+	- https://docs.jboss.org/hibernate/orm/4.0/devguide/en-US/html/ch06.html
+	- https://www.javatpoint.com/Caching-in-hibernate	
+	
+
+3) What's the difference between @JoinColumn and mappedBy when using a JPA @OneToMany association?
+
+	- https://www.edureka.co/community/26873/difference-%40joincolumn-mappedby-%40onetomany-association
+	- https://www.baeldung.com/jpa-joincolumn-vs-mappedby	
+	
+	
+4) save VS persist
+
+	- https://www.javapedia.net/Hibernate-interview-questions/81	
+	https://medium.com/coding-corpus/hibernate-sessions-and-effective-batch-update-620e3061d71f
+
+5) session.flush() vs session.commit() 
+
+	- https://www.tecbar.net/difference-flush-commit-hibernate/
+ 	- https://stackoverflow.com/questions/14581865/hibernate-commit-and-flush/47414189
+	
+6) What is Hibernate proxy?
+
+	- http://www.techfaq360.com/hibernate_interview_questions.jsp?qid=7	
+	- https://www.linkedin.com/pulse/jpahibernate-object-proxying-behind-scenes-m%C3%A1rio-j%C3%BAnior
+	- https://airbrake.io/blog/design-patterns/proxy-design-pattern
+	- https://sourcemaking.com/design_patterns/proxy
+	
+
+7) 	BatchProcessing ? Flush and save ?
+
+	https://medium.com/coding-corpus/hibernate-sessions-and-effective-batch-update-620e3061d71f
+	
+8) update Vs merge ?
+
+	https://www.dineshonjava.com/difference-between-merge-and-update-methods-in-hibernate/
+	
+9) save VS saveorUpdate	?
+
+	http://www.javawebtutor.com/articles/hibernate/hibernate-difference-between-save-saveorupdate-and-persist.php
+	
+10) What is cascading in Hibernate and cascade-example ? 
+		
+	https://stackoverflow.com/questions/17087164/what-is-cascading-in-hibernate
+	https://examples.javacodegeeks.com/enterprise-java/hibernate/hibernate-cascade-example/
+
+11) Hibernate – fetching strategies examples
+
+		https://www.mkyong.com/hibernate/hibernate-fetching-strategies-examples/
+		
+12) left Join With criareaBuilder
+
+	- https://www.logicbig.com/tutorials/java-ee-tutorial/jpa/criteria-api-left-join-on-condition.html
+		

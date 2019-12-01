@@ -1,0 +1,7 @@
+- we can prevent thread execution by using following method 
+
+	 1) yield 
+	 2) join
+	 3) sleep
+	 
+	 

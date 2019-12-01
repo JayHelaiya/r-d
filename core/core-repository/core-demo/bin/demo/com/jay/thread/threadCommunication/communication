@@ -1,0 +1,21 @@
+1) what is thread communication ?
+
+
+two threads can communicate with each anothers  wait(),notify(),notifyAll().
+thread which is expecting updation is responsible to call wait() method then immadiatelly thread will enter into waiting state 
+thread wich is responsible to perform updation , aftre performing updation it is responsible to call notify() method then waiting thread get notification
+and coutinew its execution with thoese updation item
+
+2) why these method present in to object  wait() , notify(), NotifyAll()?
+
+		1) two threads can communicate with each anothers  wait(),notify(),notifyAll().
+		
+	 	2) present in object class but not in thread class because thread can call these method any java object.
+	
+		3) TO CALL 	 wait(),notify(),notifyAll() methods on any object thread thould be owner of that object that is thread should has lock of this object
+			that thread should be syncronized area hence we can call wait(),notify(),notifyAll() methods  only from syncronized area another wise we will get runtime exception
+			elegalMoniterThreadException
+			
+		4)	if thread calls wait() method on any object it immadiatelly relese that perticuler object and enter into waiting state 		
+			 
+		5)  if thread calls notify method on any object it is release the lock of the object may not immadiatelly except  wait(),notify(),notifyAll(), 

@@ -1,0 +1,24 @@
+1) Method Overloading in Java
+
+	- If a class has multiple methods having same name but different in parameters, it is known as Method Overloading.
+
+2) 	Advantage of method overloading
+		
+	- Method overloading increases the readability of the program.
+
+3) 	Different ways to overload the method
+
+		- There are two ways to overload the method in java
+
+			1) By changing number of arguments
+			2) By changing the data type
+			
+4) Why Method Overloading is not possible by changing the return type of method only?
+	
+	- no possible  ,only because of ambiguity problem 
+
+5) 	Can we overload java main() method?
+
+	- Yes, by method overloading.
+	  You can have any number of main methods in a class by method overloading. 
+	  But JVM calls main() method which receives string array as arguments only. Let's see the simple example:		

@@ -1,0 +1,23 @@
+https://www.geeksforgeeks.org/interview-questions-for-java-professionals/
+https://www.geeksforgeeks.org/commonly-asked-java-programming-interview-questions-set-2/
+https://www.geeksforgeeks.org/commonly-asked-java-programming-interview-questions-set-1/
+https://www.edureka.co/blog/interview-questions/java-interview-questions/
+https://www.javatpoint.com/corejava-interview-questions
+https://javarevisited.blogspot.com/2015/10/133-java-interview-questions-answers-from-last-5-years.html
+
+
+
+
+
+1)	Different Types of SQL Joins 
+		- https://www.w3resource.com/sql/joins/sql-joins.php
+		- https://www.w3resource.com/sql/joins/perform-a-self-join.php
+		- https://www.dotnettricks.com/learn/sqlserver/different-types-of-sql-joins
+		
+	Use of USING keyword in JOINNING 
+	
+		- https://way2tutorial.com/sql/sql-equi-join.php
+
+	Difference between inner join and equi join and natural join
+
+		- https://www.dotnettricks.com/learn/sqlserver/difference-between-inner-join-and-equi-join-and-natural-join

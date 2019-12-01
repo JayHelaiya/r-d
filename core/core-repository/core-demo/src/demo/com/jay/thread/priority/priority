@@ -1,0 +1,5 @@
+
+-   default priority only for main thread is 5 but all remaining thread default priority will be inherited from parent to child 
+	that is what is priority parent thread has the same priority will be there for the child thread 
+
+	see Case-1 example

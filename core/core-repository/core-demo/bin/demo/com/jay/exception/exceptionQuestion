@@ -1,0 +1,14 @@
+1) what is exception ?
+
+	- unexpected ,unwanted event that disturb normal flow of the program is called exception , tirePunsure , FileNotFoundException
+
+
+2) objective of Exception handling 
+
+	- grassful termination of program 
+	- something wrong vary common  boss but we have some alternative and continue rest of the program normally
+	- defining the alternative way to continue rest of program is called Exception handling 
+	- Exception handling does not mean repairing the exception we have to provide alternative way to continue rest of program normally is concept of exception handling 
+	
+3)	
+	

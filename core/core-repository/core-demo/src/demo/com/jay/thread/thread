@@ -1,0 +1,48 @@
+1) what is multitasking ? 
+
+	executing multiple task simultaneously 
+	
+	multitasking 
+		- process based multitasking
+		
+				- executing several task simultaneously where each task is separate independent process
+				- example while programming same time listening music downloading file here each task is separate independent program 
+				- it suitable at OS level	
+				
+		- thread based multitasking
+		
+			-  executing several task simultaneously where each task is separate independent part of the same program
+			-  one program but multiple independent parts 
+			-  it suitable at programming level	
+			
+2)	what is thread ?
+
+	- separate flow of execution , each flow has independent job  
+	
+3)  define a thread  
+	- we can  define a thread following two ways 
+		- by extending thread class
+		- by  implementing Runnable interface
+		
+		
+4) thread scheduler ?
+
+	- is part of JVM 
+	- it is responsible to scheduler thread execution
+	- if multiple thread waiting to get chance in which order they are going to execute is decided by thread scheduler
+	- in which order they are going to execute is not decided because what is algorethem follow thread scheduler , it is vary to JVM to JVM
+	
+5) what is different between  t.run(); and t.start();	
+
+	- run method will call as normal method 
+		
+		- t.start();
+			is responsible  to register thread with thread scheduler and all another maendotery activity hence without executing thread.start menthod ,there is not chance of staring a new thread in java
+			
+			  
+			
+		
+			
+		
+		
+		

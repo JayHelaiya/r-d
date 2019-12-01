@@ -1,0 +1,27 @@
+- what is internal Structure of ArrayList?
+		
+		Collection <interface>  
+			|		
+			|
+	AbstractCollection <AbstractClass>
+			|	
+			|
+	AbstractList <AbstractClass>
+			|
+			|
+		List<Interface>
+			|
+			|
+		Vector<Class>
+				
+
+1) what is Vector ?
+
+	is same as ArrayList but vector is ThreadSafe but ArrayList not threadSafe
+
+2) vector methods ?
+	
+	addElement();
+	removeElement();
+	removeAllElement();
+	

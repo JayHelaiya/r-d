@@ -1,0 +1,19 @@
+- Restrictions for the static method
+		
+		- The static method can not use non static data member or call non-static method directly.
+		- this and super cannot be used in static context.
+		
+-  Java static block
+
+		- Is used to initialize the static data member.
+		- It is executed before the main method at the time of classloading.
+		
+		
+-  Why is the Java main method static?
+
+		 It is because the object is not required to call a static method. 
+		 If it were a non-static method, 
+		 JVM creates an object first then call main() method that will lead the problem of extra memory allocation.
+
+
+				
