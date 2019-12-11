@@ -1,3 +1,93 @@
 spring MVC Annotations
 
 -- https://www.java67.com/2019/04/top-10-spring-mvc-and-rest-annotations-examples-java.html
+
+@Qualifier("anotherColor")
+
+If two different bean created for same object  in application context At auto wiring time  for clarifications this annotation is used .
+
+. @Autowired Examples
+
+Now, you can autowired bean via @Autowired, and it can be applied on 
+setter method, constructor or a field.
+
+
+Dependency checking
+
+By default, the @Autowired will perform the dependency checking to make sure the property has been wired properly. When Spring can’t find a matching bean to wire, it will throw an exception. To fix it, you can disable this checking feature by setting the “required” attribute of @Autowired to false.
+
+package com.mkyong.common; import org.springframework.beans.factory.annotation.Autowired; 
+
+public class Customer { 	   @Autowired(required=false) 
+	private Person person; 	
+  private int type; 	
+  private String action; 	
+//getter and setter methods
+ }
+------------------------------
+Auto wire by name 
+ https://www.mkyong.com/spring/spring-autowiring-by-name/
+
+Auto wire by type
+
+https://www.mkyong.com/spring/spring-autowiring-by-type/
+
+Auto wire by constructor
+
+https://www.mkyong.com/spring/spring-autowiring-by-constructor/
+
+
+
+Core Annotations 
+----------------------------
+
+@Configuration
+ @PropertySource
+@PropertySources
+@Scope
+@Value
+@Required
+@Qualifier
+@Primary
+@Bean
+@Autowired
+
+Spring stereotype of annotation
+--------------------------
+@ComponentScan
+@Component
+@Sarvice
+@Repository
+@Controller 
+@restController
+
+Spring MVC Annotation
+------------------------------------
+@Controller
+@RequestMapping
+@PathVariable
+@RequestParam
+@ModelAttribute
+@RequestBody and @ResponseBody
+@RequestHeader and @ResponseHeader
+@Transactional
+
+______________________________________________
+
+Spring Bean Life-Cycle Example
+
+https://examples.javacodegeeks.com/enterprise-java/spring/spring-bean-life-cycle-example/
+
+@PreDestroy and @PostConstruct
+
+ are alternative way for bean initMethod and destroyMethod. It can be used when the bean class is defined by us.
+
+spring bean scopes
+___________________
+
+https://www.journaldev.com/21039/spring-bean-scopes
+
+
+
+
+
