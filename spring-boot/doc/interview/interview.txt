@@ -1,20 +1,30 @@
-0) Benefits of the Spring Framework
+1) Benefits of the Spring Framework
 	- https://subscription.packtpub.com/book/application_development/9781783987368/1/ch09lvl1sec11/benefits-of-the-spring-framework
 	- https://www.roseindia.net/spring/advantages-of-spring-framework.shtml
 
+2) spring-modules
+	-- https://www.javatpoint.com/spring-modules
+
+3) what IoC Container type of IoC Container	 Difference between BeanFactory and the ApplicationContext
+		
+	-- https://www.javatpoint.com/ioc-container
+	
+
+4) difference between constructor and setter injection
+	-- https://www.javatpoint.com/difference-between-constructor-and-setter-injection
 
 
-0) Spring Bean Life-Cycle Example
+5) Spring Bean Life-Cycle Example
 
 	-- https://examples.javacodegeeks.com/enterprise-java/spring/spring-bean-life-cycle-example/
 
 			@PreDestroy and @PostConstruct
 			are alternative way for bean initMethod and destroyMethod. It can be used when the bean class is defined by us.
 
-0) spring bean scopes
+6) spring bean scopes
 		-- https://www.journaldev.com/21039/spring-bean-scopes
 		
-0) @Autowired 
+7) @Autowired 
 
 	Now, you can autowired bean via @Autowired, and it can be applied on 
 	setter method, constructor or a field.
@@ -52,7 +62,7 @@
 		
 
 
-0) spring  Annotations
+8) spring  Annotations
 
 		Links:
 		-- https://www.java67.com/2019/04/top-10-spring-mvc-and-rest-annotations-examples-java.html
