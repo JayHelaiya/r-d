@@ -70,7 +70,10 @@
 
 			Core Annotations 
 			-----------------------------
-
+			
+			@SpringBootApplication  
+				- https://dzone.com/articles/the-springbootapplication-annotation-example-in-ja
+				
 			@Configuration
 			@PropertySource
 			@PropertySources
