@@ -7,5 +7,7 @@
      https://javapapers.com/core-java/java-jvm-memory-types/
      https://stackify.com/java-heap-vs-stack/
     
-  4) https://www.geeksforgeeks.org/fail-fast-fail-safe-iterators-java/  
+  4)  fail-fast VS fail-safe    
+  
+     -- https://www.geeksforgeeks.org/fail-fast-fail-safe-iterators-java/  
      
