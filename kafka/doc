@@ -1,3 +1,6 @@
 1) what is kafka ?
   - https://medium.com/@debutinfotech/achieving-fault-tolerance-with-kafka-a-detailed-explanation-a9828929d00d
+2) When does Kafka Leader Election happen?
+  - https://stackoverflow.com/questions/43146546/when-does-kafka-leader-election-happen
+  - https://dzone.com/articles/kafka-topic-architecture-replication-failover-and
   
