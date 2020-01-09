@@ -1,1 +1,111 @@
 
+commmands 
+
+- user config
+
+	[git config --global user.name "jay helaiya"]
+	[git config --global user.email "jayhelaiya007@gmail.com"]
+
+
+- create bash_profile
+
+	[notepad++ ~/.bash_profile]
+	[alias npp='notepad++ -multiInst -nosession']
+	[git config --global core.editor "notepad++ -multiInst nosession"]
+	[git config --global -e]
+	
+- p4merge : Download
+
+
+---------------------------------------
+
+	[ls -al]   - listing
+	[mkdir project] - for creating folder
+	[mv project projects] - rename or move
+	[ls] - listing
+	[git init demo] - create repository
+	
+----------------git commmands-------------------------
+
+
+[git status]
+[git add <file>] - single file
+[	] - all file
+[git commit -m "first file in demo repo"]
+[git commit "first file in demo repo"] with notepad
+[git log]
+[git show]
+
+------------------------------- back out changes -----------
+ git reset HEAD LICENSE.txt[discard changes in working directory]
+ git checkout -- LICENSE.txt [complete discard changes]
+ 
+ ------------------------open git from working directory ---------------------------------
+ 
+ https://stackoverflow.com/questions/19916670/how-to-launch-a-git-bash-window-with-particular-working-directory-using-a-script?rq=1
+ 
+ 
+ git remote add origin https://github.com/JayHelaiya/jpa-repo.git
+git push -u origin master
+ 
+ [$ git log --oneline --graph --decorate --all]
+	- log history of commit by label
+	
+ [git config --global alias.history "log --oneline --graph --decorate --all"]
+
+
+ 
+ ---------------------------------------------------------------------------------------
+ 
+ git add -A && git commit -m "Your Message"
+count as a "single command"?
+
+Edit based on @thefinnomenon's answer below:
+
+To have it as a git alias, use:
+
+git config --global alias.coa '!git add -A && git commit -m'
+and commit all files, including new files, with a message with:
+
+git coa "A bunch of horrible changes"
+ 
+ --------------------------link local to remote repository------------------------ 
+
+	
+	
+1)…or create a new repository on the command line
+		echo "# jpa-repository" >> README.md
+		git init
+		git add README.md
+		git commit -m "first commit"
+		git remote add origin https://github.com/JayHelaiya/jpa-repository.git
+		git push -u origin master
+
+2)…or push an existing repository from the command line
+		git remote add origin https://github.com/JayHelaiya/jpa-repository.git
+		git push -u origin master
+	
+$ git remote add origin https://github.com/user/repo.git
+# Set a new remote
+
+$ git remote -v
+# Verify new remote
+> origin  https://github.com/user/repo.git (fetch)
+> origin  https://github.com/user/repo.git (push)
+
+----------------------------------Pushing commits to a remote repository-------------------------------------------
+
+https://help.github.com/en/articles/pushing-commits-to-a-remote-repository
+
+
+-----------------------------for multiple local repo to one remote repo-------------------------------------
+
+https://github.com/rtyley/bfg-repo-cleaner/issues/29
+
+git push origin master -f
+
+--------------------download ---------------------------
+	https://stackoverflow.com/questions/7106012/download-a-single-folder-or-directory-from-a-github-repo
+	
+	
+
