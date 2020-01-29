@@ -7,3 +7,6 @@
  3) controller
  - http://cloudurable.com/blog/kafka-architecture-topics/index.html
  -https://hackernoon.com/apache-kafkas-distributed-system-firefighter-the-controller-broker-1afca1eae302
+ 
+ 4) key pair configuration 
+ - https://docs.confluent.io/current/installation/configuration/broker-configs.html
