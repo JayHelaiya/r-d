@@ -10,3 +10,6 @@
  
  4) key pair configuration 
  - https://docs.confluent.io/current/installation/configuration/broker-configs.html
+
+ 5) Apache Kafka ack-value
+    - https://www.cloudkarafka.com/blog/2019-09-28-what-does-in-sync-in-apache-kafka-really-mean.html
