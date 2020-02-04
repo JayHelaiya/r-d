@@ -1,3 +1,14 @@
+
+3) JVM Memory Area
+     https://www.tutorialspoint.com/Java-JVM-Memory-Types
+     https://www.geeksforgeeks.org/how-many-types-of-memory-areas-are-allocated-by-jvm/
+     https://www.geeksforgeeks.org/native-keyword-java/
+     https://javapapers.com/core-java/java-jvm-memory-types/
+     https://stackify.com/java-heap-vs-stack/
+    
+  4)  fail-fast VS fail-safe    
+          -- https://www.geeksforgeeks.org/fail-fast-fail-safe-iterators-java/ 
+
 -  deep copy vs shallow copy
 	https://www.geeksforgeeks.org/deep-shallow-lazy-copy-java-examples/
 - static block vs instance initializar block 
